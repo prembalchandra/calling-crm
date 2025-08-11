@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/calling-crm/static/css/main.cd205796.css",
+    "main.js": "/calling-crm/static/js/main.35b3d879.js",
+    "static/media/boxicons.svg": "/calling-crm/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/calling-crm/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/calling-crm/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/calling-crm/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/id.png": "/calling-crm/static/media/id.fa69325c47a452ca4eee.png",
+    "static/media/crm.png": "/calling-crm/static/media/crm.9d2bcf278ba5e7a20db6.png",
+    "static/media/caller_id.png": "/calling-crm/static/media/caller_id.b7b64c358d02156ddb5c.png",
+    "static/media/boxicons.woff2": "/calling-crm/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/pan.png": "/calling-crm/static/media/pan.d94cf396a438f7a79789.png",
+    "static/media/deleteLogo.png": "/calling-crm/static/media/deleteLogo.93001f96b933f4cedebd.png",
+    "static/media/adhar2.png": "/calling-crm/static/media/adhar2.20f1260cbdc3bc75919b.png",
+    "static/media/swift-dial-logo.png": "/calling-crm/static/media/swift-dial-logo.be30bb35d59a6f036832.png",
+    "static/media/adhar1.png": "/calling-crm/static/media/adhar1.0222205da2d969b5d9e5.png",
+    "index.html": "/calling-crm/index.html",
+    "main.cd205796.css.map": "/calling-crm/static/css/main.cd205796.css.map",
+    "main.35b3d879.js.map": "/calling-crm/static/js/main.35b3d879.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd205796.css",
+    "static/js/main.35b3d879.js"
+  ]
+}
