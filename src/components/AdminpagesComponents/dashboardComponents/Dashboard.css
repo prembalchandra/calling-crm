@@ -1,0 +1,49 @@
+
+span.company-name {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.card-header-body {
+    border-bottom: 1px solid var(--bs-dark);
+}
+
+.user-call-chat-heading h2 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #000000;
+}
+.total-team {
+    font-size: 14px;
+    font-weight: 500;
+   color: #000000;
+       display: flex
+;
+    align-items: center;
+}
+td.table-tema {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+td.table-tema-numer {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+    font-family: serif;
+}
+.card-bg-wapper {
+    background-color: var(--bs-white);
+    border-radius: 6px;
+    padding: 13px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.fs-13.text-muted {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #000 !important;
+}

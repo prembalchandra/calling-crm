@@ -1,0 +1,224 @@
+
+  .sidebar-setion-arae{
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+  .toggle-sidebar .line {
+    width: 19px;
+    height: 2px;
+    background-color: #5089a9;
+    display: block;
+    transition: all .3s ease-in-out;
+  }
+  .middleLine {
+    margin: 4px 0;
+}
+.hamburger.is-active .line:nth-child(1) {
+ transform: translateY(6px) rotate(45deg);
+}
+
+.hamburger.is-active .line.middleLine {
+  opacity: 0;
+}
+
+.hamburger.is-active .line:nth-child(3) {
+transform: translateY(-6px) rotate(-45deg);
+}
+  
+.sidebar-wrapper {
+    position: relative;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #efefef;
+    transition: width, left, right, 300ms;
+    width: 250px;
+    min-width: 250px;
+}
+
+.sidebar-wrapper {
+    height: 100%;
+    width: 180px !important;
+    min-width: 180px !important;
+    margin-right: 15px;
+}
+
+.sidebar-root-id .sidebar-css-inner{
+    width: 211px;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    overflow: hidden !important;
+    background: #f8f9fa;
+    box-shadow: 0 4px 6px -1px #3943571a, 0 2px 4px -1px #3943571a;
+    height: 100%;
+    z-index: 3;
+}
+.sidebar-root-id .sidebar-logo-img a {
+    font-size: 24px;
+    font-weight: 700;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+    color: #000;
+    gap: 10px;
+
+    padding: 0 10px 0 3px;
+}
+.sidebar-root-id .sidebar-logo-img a img {
+       display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 47px;
+
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu-root-list{
+    position: relative;
+    margin-top: 0;
+    height: 90vh;
+    overflow: auto;
+}
+
+.menu-root-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.sidebar_item{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.menu-root-list .sidebar-menu-button{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    gap: 10px;
+}
+span.sidebar-icon {
+    font-size: 16px;
+    color: #1f1b1b;
+}
+.menu-root-list .sidebar-menu-button:hover{
+    background-color: #e7eaf0 !important;
+}
+
+.menu-label {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.menu-label {
+    color: #494949;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    letter-spacing: .5px !important;
+    line-height: 25px !important;
+}
+.submenu {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.submenu-item {
+    margin-bottom: 5px;
+}
+
+.submenu-link {
+    color: #000;
+    padding: 5px 10px;
+    display: block;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 300;
+}
+.submenu-icon {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.rotate-icon {
+    transform: rotate(268deg);
+}
+
+.submenu-item:hover {
+    background-color: #e7eaf0 ;
+    padding: 4px 2px;
+}
+
+.menu-item-root.active .sidebar-menu-button {
+    background: #e7eaf0;
+    border-radius: 0 !important;
+    width: 100%;
+}
+
+.submenu-item.active .submenu-link {
+    background-color: #d5dff3;
+    font-weight: 400;
+    padding: 10px 2px;
+}
+
+@media screen and (max-width: 768px){
+.toggle-sidebar {
+    position: fixed;
+    z-index: 1600;
+    top: 17px;
+    left: 8px;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #5089a9;
+    border-radius: 5px;
+    height: 25px;
+    width: 30px;
+}
+.hamburger.toggle-sidebar.active {
+    left: 209px;
+    border-left: 0;
+    background: #8355ad;
+    border-radius: 0;
+}
+.sidebar-root-id .sidebar-css-inner{
+    position: fixed;
+    z-index: 1555;
+    top: 0;
+    left: -100%;
+    border-right: 1px solid #8355ad;
+}
+.sidebar-root-id .sidebar-css-inner.show-sidebar {
+    left: 0;
+  }
+  .hamburger.toggle-sidebar.is-active {
+    left: 211px;
+    border-left: 0;
+    background: #1aa1ef;
+    border-radius: 0;
+}
+.hamburger.toggle-sidebar.is-active .line{
+    background-color: #fff;
+}
+}

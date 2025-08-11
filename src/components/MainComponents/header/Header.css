@@ -1,0 +1,161 @@
+.dnone {
+    display: none;
+}
+.navber-logo a img {
+    width: 100%;
+    max-width: 189px;
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-expand {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.fixed-top {
+    left: auto !important;
+    background: #f8f9fa;
+}
+
+.hearder-container {
+    width: calc(100% - 211px) !important;
+}
+.sidebar-logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+ 
+.sidebar-logo-img a img {
+       display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 47px;
+
+}
+.navbar-expand .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+}
+
+.navbar-expand .navbar-collapse {
+    width: 84%;
+}
+
+.header_row {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: end;
+}
+
+.navbar-expand .navbar-nav {
+    flex-direction: row;
+    width: 100%;
+}
+
+.contText {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+
+
+.pro-header {
+    display: flex;
+    justify-content: end;
+}
+.skeleton {
+    width: 100%;
+}
+button.btn.btn-secondary.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+}
+ .dropdown-item {
+    color: #494949 !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    letter-spacing: .8px !important;
+    line-height: 25px !important;
+    padding: 7px 10px !important;
+}
+.dropdown-item:hover {
+    background-color: #15587d !important;
+    color: #fff !important;
+}
+.user-pic {
+    min-height: 30px !important;
+    min-width: 30px !important;
+    height: 30px !important;
+    width: 30px !important;
+    font-size: 12px !important;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 3px solid #ccc;
+    overflow: hidden;
+    font-size: 16px !important;
+    background: #000;
+    cursor: pointer;
+}
+.profile-icon {
+    border-radius: 50%;
+    min-width: 30px;
+    max-width: 30px;
+    height: 30px;
+    border: 2px solid #8355ad;
+    padding: 3px;
+    object-fit: scale-down;
+    float: left;
+    margin-right: 5px;
+}
+
+.user-names {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px){
+    .dphone{
+        display: none;
+
+    }
+    .dnone{
+        display: block;
+        padding-left: 34px;
+    }
+    .hearder-container {
+        max-width: 100%;
+        width: 100% !important;
+    }
+    .header_row{
+        padding: 0;
+    }
+    .navbar-expand .navbar-nav{
+        width: auto;
+    }
+}

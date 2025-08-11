@@ -1,0 +1,277 @@
+/* Login.css */
+
+/* Base Setup */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Outer Container */
+.loginAuth {
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Card */
+.loginformwrapper {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Login Container Flex Layout */
+.login-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Left Side: Slider */
+.login-left {
+  width: 50%;
+  background-color: #2563eb;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 30px;
+  position: relative;
+}
+
+.left-content-slider {
+  width: 100%;
+  text-align: center;
+}
+
+.slide {
+  transition: opacity 1s ease-in-out;
+}
+
+.illustration {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.side-heading {
+  font-size: 24px;
+  font-weight: bold;
+  animation: slideUp 1s ease-in-out;
+}
+
+.side_titel {
+  font-size: 16px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Right Side: Login Form */
+.login-right {
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 30px;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 400px;
+}
+
+.logo-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-header p {
+  margin: 5px 0 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.login-form .input-field {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.login-form .input-field:focus {
+  border-color: #2563eb;
+}
+
+/* Remember Me & Forgot Password */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.options input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.recovery-link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.recovery-link:hover {
+  text-decoration: underline;
+}
+
+/* Login Button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1e40af;
+}
+
+/* Signup Link */
+.signup-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.signup-text a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes slideUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Responsive Styles */
+
+/* Tablet and Smaller */
+@media (max-width: 991px) {
+  .login-container {
+    flex-direction: column;
+  }
+
+  .login-left,
+  .login-right {
+    width: 100%;
+  }
+
+  .login-left {
+    padding: 30px 20px;
+  }
+
+  .login-right {
+    padding: 30px 20px;
+  }
+
+  .side-heading {
+    font-size: 22px;
+  }
+
+  .side_titel {
+    font-size: 15px;
+  }
+
+  .illustration {
+    width: 70%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .side-heading {
+    font-size: 20px;
+  }
+
+  .side_titel {
+    font-size: 14px;
+  }
+
+  .illustration {
+    width: 90%;
+  }
+
+  .form-wrapper {
+    padding: 0;
+  }
+
+  .login-form .input-field {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .login-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .options {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .recovery-link {
+    margin-top: 10px;
+  }
+}

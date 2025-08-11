@@ -1,0 +1,134 @@
+.d-flex {
+    display: flex !important;
+}
+.dashBoard_header {
+    justify-content: space-between;
+    position: sticky;
+    top: 58px;
+    z-index: 12;
+    background: #e7eaf0;
+    align-items: center;
+    padding: 15px 0px;
+}
+.h1-text {
+    font-size: 16px;
+    color: #2c2c2c;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.h1-text i {
+    background-color: #15587d;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    box-shadow: 5px 14px 35px #eadcf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+    transition: .3s all;
+}
+
+.justifycontentend {
+    justify-content: end;
+}
+#nav-filter button {
+    margin: 0;
+    background: none;
+    font-size: 14px;
+}
+
+.btn-bg {
+    background-color: #fff !important;
+    color: #000;
+    border: 1px solid #5d9991;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    display: block;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    padding: 10px 13px;
+     gap: 2px;
+}
+.btn-bg:hover{
+    background-color: #5d9991 !important;
+    color: #fff;
+
+}
+  
+.btn-bg-2 {
+    background-color: #15587d !important;
+    border: 1px solid #15587d;
+    font-weight: 400;
+    line-height: 13px;
+    display: flex;
+    font-size: 12px !important;
+    align-items: center;
+       height: 30px;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 7px 8px;
+    gap: 2px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+span.badge-length {
+    font-size: 16px;
+    font-weight: 600;
+}
+  .btn-bg-2:hover {
+    background-color: #fff !important;
+    color: #000;
+    border: 1px solid #5d9991;
+
+  }
+  
+.addTaskBtn {
+    background-color: #15587d !important;
+    border: 1px solid #15587d;
+    font-weight: 400;
+    line-height: 13px;
+    display: flex
+;
+    font-size: 11px !important;
+    align-items: center;
+    height: 30px;
+    border-radius: 50px;
+    justify-content: center;
+    padding: 7px 8px;
+    gap: 2px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.addTaskBtn {
+  background-color: #053F44;  
+  color: #ffffff;
+}
+
+.addTaskBtn:hover {
+  background-color: #042e32;
+  color: #ffffff;
+}
+
+.addTaskBtn i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.addTaskBtn {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

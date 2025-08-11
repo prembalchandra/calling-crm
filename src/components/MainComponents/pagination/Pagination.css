@@ -1,0 +1,22 @@
+.next-btn {
+    background-color: #15587d;
+    color: white;
+    border: 1px solid #dadee3;
+    transition: background-color 0.3s ease;
+    padding: 6px 11px;
+    border-radius: 0px 4px 4px 0px;
+    outline: none;
+}
+.Previous-btn{
+       border-radius: 4px 0px 0px 4px !important;
+}
+.page-link{
+    outline: none !important;
+}
+.next-btn.disabled,
+.next-btn:disabled {
+  background-color: #e9ecef;
+  color: #6c757d;
+  border-color: #dee2e6;
+  cursor: not-allowed;
+}

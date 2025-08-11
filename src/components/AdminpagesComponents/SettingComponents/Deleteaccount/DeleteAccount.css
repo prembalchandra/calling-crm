@@ -1,0 +1,45 @@
+
+
+
+.delete-account-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.delete-account-form label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+}
+
+
+
+.delete-account-form textarea {
+  resize: vertical;
+  min-height: 100px;
+   border: 1px solid #ccc;
+       outline: none;
+    border: 1px solid #c9c9c9;
+    -webkit-appearance: none;
+    line-height: 1.5;
+    border-radius: 3px;
+    padding: .375rem .75rem;
+}
+
+.delete-account-form button {
+  display: block;
+  margin: 20px auto 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.alert {
+  padding: 10px 15px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  border-radius: 5px;
+}

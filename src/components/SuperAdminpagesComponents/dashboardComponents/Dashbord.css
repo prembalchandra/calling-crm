@@ -1,0 +1,41 @@
+.apexcharts-legend {
+    display: flex;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.apexcharts-legend {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start !important;
+}
+.chart-area {
+    padding-bottom: 8px;
+}
+.card-employer-col {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 15px 7px 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.employer-name-heading {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.card-employer-lift-arae p {
+    font-size: 12px !important;
+    font-weight: 300;
+    line-height: 20px;
+}
+.employer-name-heading {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.card-employer-row {
+    width: 100%;
+    overflow: overlay;
+}
